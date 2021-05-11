@@ -1,0 +1,74 @@
+img {
+  margin-top: -10px;
+  margin-left: -10px;
+  width: 1366px;
+  height: auto;
+}
+
+img.Fondo{
+  margin-left: 10px;
+  width: 800px;
+  margin-top: 100px;
+  height: auto;
+}
+
+div.Izq{
+  
+}
+
+div.Der{
+  float: right;
+  margin-top: 30px;
+  margin-right: 50px;
+  padding: px;
+  text-align: center;
+}
+
+p.Titulo{
+  text-align: left;
+  font-weight: bold;
+  font-size: 400%;
+  font-family: arial;
+}
+
+p.Texto{
+  text-align: center;
+  font-size: 150%;
+  font-family: arial;
+}
+
+button.Boton{
+  background-color: rgb(51, 173, 255);
+  color: white;
+  font-family: arial;
+  font-size: 150%;
+  border-radius: 8px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+input.Usuarios{
+  font-size: 130%;
+  font-family: arial;
+}
+
+input.ContrasP{
+  font-size: 130%;
+  font-family: arial;
+}
+
+label.Label{
+  background-color: rgb(217, 217, 217);
+  font-family: arial;
+  font-size: 130%;
+  border-radius: 8px;
+}
+
+a.link{
+  text-decoration: none;
+  color: black;
+}
+
+a.link:hover{
+  color: rgb(51, 173, 255);
+}

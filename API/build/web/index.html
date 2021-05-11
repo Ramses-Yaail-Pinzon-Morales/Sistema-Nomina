@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sistema Nómina - Inicio Sesión</title>
+<link rel="stylesheet" href="Estilos.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=divce-width, initial-scale=1.0">
+</head>
+<body>
+<meta charset="UTF-8">
+<header>
+ <img src="Logo.png" alt="PayRoll siempre para apoyar a las empresas">
+</header>
+
+<script>
+  function validar() {
+   var usuario= document.getElementById("usuario").value;
+   var Contra= document.getElementById("contra").value;
+
+  if(usuario==="" && Contra===""){
+    alert("Campos Vacios\nFavor de llenar los campos con su Usuario y Contraseña.");
+ } else {
+    alert("Usuario: "+usuario+"\nContraseña: "+Contra+"\nSon incorrectos.");
+ }
+}
+</script>
+
+<div class="Izq">
+  <img class="Fondo" src="Img.png" alt="Trabaje con nosotros para mejorar su negocio">
+ <div class="Der">
+  <p class="Titulo">Iniciar Sesión</p>
+   <div>
+     <p class="Texto">Ingresa tu clave de usuario:</p>
+     <input type="text" name="usuario" id="usuario" class="Usuarios"></input>
+     <p class="Texto">Ingresa tu contraseña:</p>
+     <input type="password" name="contra" id="contra" class="ContrasP"></input><br><br><br>
+     <button type="button" class="Boton" name="BVerificar" id="verificar" onclick="validar()">Sign in</button>
+     <br><br><br>
+     <label class="Label">¿Olvidaste tu contaseña?, <a class="link" href="">Da clic aquí</a></label>
+   </div>
+ </div>
+</div>
+</body>
+</html>
